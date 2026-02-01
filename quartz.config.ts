@@ -12,7 +12,7 @@ const config: QuartzConfig = {
     pageTitleSuffix: " | ML Researcher",
     enableSPA: true,
     enablePopovers: true,
-    analytics: null,
+    analytics: { provider: "google", tagId: "G-RL5H9S52NF" },
     locale: "en-US",
     baseUrl: "johnpeterflynn.github.io",
     ignorePatterns: ["private", "templates", ".obsidian", "blog", "projects"],
