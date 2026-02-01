@@ -1,0 +1,125 @@
+---
+title: Welcome
+---
+
+<div class="hero-photo">
+
+![Profile photo](/static/profile.jpg)
+
+</div>
+
+# John Peter Flynn
+
+<div class="social-links">
+
+[![GitHub](/static/icons/github.svg)](https://github.com/johnpeterflynn)
+[![LinkedIn](/static/icons/linkedin.svg)](https://linkedin.com/in/johnpeterflynn)
+[![Twitter](/static/icons/twitter.svg)](https://twitter.com/johnpeterflynn)
+[Contact Me](#contact)
+
+</div>
+
+I'm a Senior Machine Learning Researcher at **Pipio**, working on Visual Computing. My research spans Computer Vision, Computer Graphics, Machine Learning, and Robotics.
+
+## Research
+
+My research focuses on Visual Computing. I'm particularly interested in:
+
+- **Computer Vision**: Exploring visual perception and understanding
+- **Computer Graphics**: Creating and manipulating visual content
+- **Machine Learning**: Developing intelligent systems and algorithms
+- **Robotics**: Enabling intelligent robotic systems and interactions
+
+## Background
+
+**Education**
+- MSc. in Computer Science - TU Munich
+
+**Experience**
+- Senior Machine Learning Researcher - Pipio (May 2022 - Present)
+
+## Publications & Projects
+
+<div class="publication-entry">
+
+<div class="pub-image">
+
+![EditYourself teaser](https://gafniguy.github.io/images/edityourself_teaser.png)
+
+</div>
+
+<div class="pub-content">
+
+### EditYourself: Audio-Driven Generation and Manipulation of Talking Head Videos with Diffusion Transformers
+
+<div class="pub-year">2026</div>
+
+<div class="pub-authors">
+
+**John Flynn**, Wolfgang Paier, Dimitar Dinev, Sam Nhut Nguyen, Hayk Poghosyan, Manuel Toribio, Sandipan Banerjee, Guy Gafni
+
+</div>
+
+<div class="pub-description">
+
+A diffusion-based video editing model for talking heads, enabling transcript-driven lip-syncing, insertion, removal and retiming of speech while preserving identity and visual fidelity.
+
+</div>
+
+<div class="pub-links">
+
+[Project Page](https://edit-yourself.github.io) | [Paper](https://arxiv.org/abs/2601.22127)
+
+</div>
+
+</div>
+
+</div>
+
+<div class="publication-entry">
+
+<div class="pub-image">
+
+![STINet output animation](https://raw.githubusercontent.com/johnpeterflynn/surface-texture-inpainting-net/main/docs/images/output640_lan.gif)
+
+</div>
+
+<div class="pub-content">
+
+### Surface Texture Inpainting Using Graph Neural Networks
+
+<div class="pub-year">Master's Thesis, 2022</div>
+
+<div class="pub-authors">
+
+**John Flynn**
+
+</div>
+
+<div class="pub-description">
+
+Master's thesis exploring graph neural networks for completing texture on partially-textured 3D meshes. Unlike traditional 2D image inpainting, STINet operates directly on mesh surfaces, leveraging vertex positions, normals, and connectivity to predict vertex colors. This represents the first application of GNNs to surface texture completion.
+
+</div>
+
+<div class="pub-links">
+
+[GitHub](https://github.com/johnpeterflynn/surface-texture-inpainting-net) | [Thesis PDF](https://github.com/johnpeterflynn/surface-texture-inpainting-net/blob/main/docs/flynn_thesis_final.pdf) | [Video Demo](https://youtu.be/xjIRtMGdiQU)
+
+</div>
+
+</div>
+
+</div>
+
+<div id="contact"></div>
+
+## Contact
+
+The best way to reach me is by email:
+
+<div class="email-contact">
+johnflynn90 [at] gmail.com
+</div>
+
+I'm happy to discuss research collaborations, speaking opportunities, or answer questions about my work.

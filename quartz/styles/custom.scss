@@ -1,3 +1,387 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Tufte-inspired typography and styling
+
+// Readable line length and spacing
+article {
+  max-width: 55rem;
+
+  p, li {
+    line-height: 1.7;
+    font-size: 1.1rem;
+    text-align: left;
+    hyphens: auto;
+  }
+
+  // Larger, more prominent headers
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-style: normal;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-style: normal;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+}
+
+// Tufte-style blockquotes
+blockquote {
+  border-left: 3px solid var(--secondary);
+  padding-left: 1.5rem;
+  margin-left: 0;
+  font-style: italic;
+  color: var(--darkgray);
+}
+
+// Epigraph style for special quotes
+blockquote.epigraph {
+  border-left: none;
+  margin: 2rem 0;
+  padding: 0 3rem;
+
+  footer {
+    text-align: right;
+    font-style: normal;
+    &::before {
+      content: "\2014\00a0";
+    }
+  }
+}
+
+// Sidenote-style callouts
+.callout {
+  background: transparent;
+  border: none;
+  border-left: 2px solid var(--lightgray);
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+
+  &.callout-note {
+    border-left-color: var(--secondary);
+  }
+
+  &.callout-warning {
+    border-left-color: #d4a017;
+  }
+
+  &.callout-tip {
+    border-left-color: #2d7d46;
+  }
+}
+
+// Publication entry with side-by-side layout
+.publication-entry {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--lightgray);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .pub-image {
+    flex: 0 0 300px;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid var(--lightgray);
+    }
+  }
+
+  .pub-content {
+    flex: 1;
+    min-width: 0;
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    .pub-year {
+      font-size: 0.9rem;
+      color: var(--gray);
+      margin-bottom: 0.5rem;
+      font-style: italic;
+    }
+
+    .pub-authors {
+      margin-bottom: 0.75rem;
+      color: var(--darkgray);
+    }
+
+    .pub-description {
+      margin: 1rem 0;
+      line-height: 1.6;
+    }
+
+    .pub-links {
+      margin-top: 1rem;
+
+      a {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    .pub-image {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+}
+
+// Project cards
+.project-card {
+  margin: 1.5rem 0;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--lightgray);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+// Code blocks with better styling
+pre {
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  padding: 1rem;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+code {
+  font-family: var(--codeFont);
+  font-size: 0.9em;
+  padding: 0.15em 0.3em;
+  background: var(--highlight);
+  border-radius: 3px;
+}
+
+pre code {
+  padding: 0;
+  background: transparent;
+}
+
+// Links with subtle styling
+a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--secondary);
+  transition: border-color 0.2s ease;
+
+  &:hover {
+    border-bottom-color: var(--dark);
+  }
+}
+
+// Remove border from navigation links
+nav a, .page-title a, footer a {
+  border-bottom: none;
+}
+
+// Better table styling
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+
+  th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--lightgray);
+  }
+
+  th {
+    font-weight: 600;
+    border-bottom: 2px solid var(--gray);
+  }
+
+  tr:hover {
+    background: var(--highlight);
+  }
+}
+
+// Homepage styling
+.home {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.3rem;
+    color: var(--gray);
+    font-style: italic;
+  }
+}
+
+// Better spacing for lists
+ul, ol {
+  padding-left: 1.5rem;
+
+  li {
+    margin: 0.5rem 0;
+  }
+}
+
+// Horizontal rules
+hr {
+  border: none;
+  border-top: 1px solid var(--lightgray);
+  margin: 2rem 0;
+}
+
+// Profile photo - fixed top right
+.hero-photo {
+  float: right;
+  margin: 0 0 1rem 2rem;
+
+  p {
+    margin: 0;
+  }
+
+  img {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: none;
+  }
+
+  @media (max-width: 600px) {
+    float: none;
+    display: block;
+    text-align: center;
+    margin: 0 auto 1.5rem;
+
+    img {
+      width: 225px;
+      height: 225px;
+    }
+  }
+}
+
+// Hero content styling
+.hero-content {
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-style: normal;
+  }
+}
+
+// Hide the wrapper div
+.hero-section {
+  display: contents;
+}
+
+// Social links row
+.social-links {
+  margin-bottom: 1rem;
+
+  p {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    border-bottom: none !important;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    // Hide external link icons
+    .external-icon {
+      display: none !important;
+    }
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  // Contact Me button style
+  a.internal {
+    background: var(--secondary);
+    color: var(--light) !important;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    opacity: 1;
+
+    &:hover {
+      background: var(--dark);
+    }
+  }
+
+  @media (max-width: 700px) {
+    p {
+      justify-content: center;
+    }
+  }
+}
+
+// Dark mode icon filter for social icons
+:root[saved-theme="dark"] .social-links img {
+  filter: invert(1);
+}
+
+// Email contact styling
+.email-contact {
+  font-family: var(--codeFont);
+  font-size: 1rem;
+  padding: 1rem;
+  background: var(--highlight);
+  border-radius: 4px;
+  display: inline-block;
+}
+
+// Graph and backlinks panel styling
+.graph, .backlinks {
+  font-size: 0.9rem;
+}
+
+// Print styles
+@media print {
+  article {
+    max-width: 100%;
+  }
+
+  .graph, .backlinks, .search, .darkmode, nav {
+    display: none;
+  }
+}

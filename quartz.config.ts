@@ -8,46 +8,45 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "John Peter Flynn",
+    pageTitleSuffix: " | ML Researcher",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "johnpeterflynn.github.io",
+    ignorePatterns: ["private", "templates", ".obsidian", "blog", "projects"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        // Headers: Libre Baskerville (serif), Body: Inter (sans-serif)
+        header: "Libre Baskerville",
+        body: "Inter",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#fffff8",        // Tufte cream background
+          lightgray: "#e0e0dc",
+          gray: "#999999",
+          darkgray: "#444444",
+          dark: "#111111",
+          secondary: "#a00000",    // Tufte red for links
+          tertiary: "#666666",
+          highlight: "rgba(160, 0, 0, 0.08)",
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#1a1a1a",
+          lightgray: "#2d2d2d",
+          gray: "#666666",
+          darkgray: "#cccccc",
+          dark: "#e8e8e8",
+          secondary: "#ff6b6b",    // Softer red for dark mode
+          tertiary: "#999999",
+          highlight: "rgba(255, 107, 107, 0.12)",
           textHighlight: "#b3aa0288",
         },
       },
