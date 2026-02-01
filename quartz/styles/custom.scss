@@ -135,8 +135,16 @@ blockquote.epigraph {
     .pub-links {
       margin-top: 1rem;
 
+      p {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 0;
+      }
+
       a {
-        margin-right: 1rem;
+        white-space: nowrap;
       }
     }
   }
@@ -191,6 +199,11 @@ a {
   text-decoration: none;
   border-bottom: none;
   transition: color 0.2s ease;
+
+  // Hide external icon for image links
+  &:has(> img) .external-icon {
+    display: none;
+  }
 }
 
 // Remove border from navigation links
@@ -301,6 +314,18 @@ hr {
 
   p {
     margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+  }
+
+  img {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    vertical-align: middle;
+    opacity: 0.7;
   }
 
   #hero-email a {
@@ -374,8 +399,9 @@ hr {
   }
 }
 
-// Dark mode icon filter for social icons
-:root[saved-theme="dark"] .social-links img {
+// Dark mode icon filter for social icons and contact info
+:root[saved-theme="dark"] .social-links img,
+:root[saved-theme="dark"] .contact-info img {
   filter: invert(1);
 }
 

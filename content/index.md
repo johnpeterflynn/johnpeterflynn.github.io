@@ -14,7 +14,7 @@ title: Welcome
 
 <div class="contact-info">
 
-San Francisco, CA · <span id="hero-email"></span>
+📍 San Francisco, CA · ✉️ <span id="hero-email"></span>
 
 </div>
 
@@ -48,7 +48,7 @@ I completed my MSc in Computer Science at the [Technical University of Munich](h
 
 <div class="pub-authors">
 
-**John Flynn**, Wolfgang Paier, Dimitar Dinev, Sam Nhut Nguyen, Hayk Poghosyan, Manuel Toribio, Sandipan Banerjee, Guy Gafni
+**John Peter Flynn**, Wolfgang Paier, Dimitar Dinev, Sam Nhut Nguyen, Hayk Poghosyan, Manuel Toribio, Sandipan Banerjee, Guy Gafni
 
 </div>
 
@@ -78,13 +78,13 @@ A diffusion-based video editing model for talking heads, enabling transcript-dri
 
 <div class="pub-content">
 
-### [Surface Texture Inpainting Using Graph Neural Networks](https://github.com/johnpeterflynn/surface-texture-inpainting-net)
+### [STINet: Surface Texture Inpainting Using Graph Neural Networks](https://github.com/johnpeterflynn/surface-texture-inpainting-net)
 
 <div class="pub-year">Master's Thesis, 2022</div>
 
 <div class="pub-authors">
 
-**John Flynn**
+**John Peter Flynn**
 
 </div>
 
@@ -116,11 +116,11 @@ Master's thesis exploring graph neural networks for completing texture on partia
 
 ### [Stereo-Camera ORB-SLAM for Indoor 3D Reconstruction](https://github.com/johnpeterflynn/stereo-camera-orb-slam)
 
-<div class="pub-year">Project at TU Munich, 2018</div>
+<div class="pub-year">Project at TU Munich, 2019</div>
 
 <div class="pub-authors">
 
-**John Flynn**
+**John Peter Flynn**, Parika Goel
 
 </div>
 
