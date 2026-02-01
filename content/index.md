@@ -2,6 +2,8 @@
 title: Welcome
 ---
 
+<div class="home">
+
 <div class="hero-photo">
 
 ![Profile photo](/static/profile.jpg)
@@ -10,33 +12,23 @@ title: Welcome
 
 # John Peter Flynn
 
+<div class="contact-info">
+
+San Francisco, CA · <span id="hero-email"></span>
+
+</div>
+
 <div class="social-links">
 
 [![GitHub](/static/icons/github.svg)](https://github.com/johnpeterflynn)
 [![LinkedIn](/static/icons/linkedin.svg)](https://linkedin.com/in/johnpeterflynn)
 [![Twitter](/static/icons/twitter.svg)](https://twitter.com/johnpeterflynn)
-[Contact Me](#contact)
 
 </div>
 
-I'm a Senior Machine Learning Researcher at **Pipio**, working on Visual Computing. My research spans Computer Vision, Computer Graphics, Machine Learning, and Robotics.
+I'm a Senior Machine Learning Researcher and founding employee at [Pipio](https://pipio.ai), where I build video editing tools powered by diffusion transformers.
 
-## Research
-
-My research focuses on Visual Computing. I'm particularly interested in:
-
-- **Computer Vision**: Exploring visual perception and understanding
-- **Computer Graphics**: Creating and manipulating visual content
-- **Machine Learning**: Developing intelligent systems and algorithms
-- **Robotics**: Enabling intelligent robotic systems and interactions
-
-## Background
-
-**Education**
-- MSc. in Computer Science - TU Munich
-
-**Experience**
-- Senior Machine Learning Researcher - Pipio (May 2022 - Present)
+I completed my MSc in Computer Science at the [Technical University of Munich](https://www.tum.de/en/), where I worked in the [Visual Computing and AI Lab](https://niessnerlab.org/) under the supervision of [Prof. Matthias Nießner](https://niessnerlab.org//members/matthias_niessner/profile.html).
 
 ## Publications & Projects
 
@@ -148,14 +140,4 @@ Real-time stereo-camera SLAM system implementing sparse indirect feature corresp
 
 </div>
 
-<div id="contact"></div>
-
-## Contact
-
-The best way to reach me is by email:
-
-<div class="email-contact">
-johnflynn90 [at] gmail.com
 </div>
-
-I'm happy to discuss research collaborations, speaking opportunities, or answer questions about my work.

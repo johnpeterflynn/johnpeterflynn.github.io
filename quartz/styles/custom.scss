@@ -7,8 +7,8 @@ article {
   max-width: 55rem;
 
   p, li {
-    line-height: 1.7;
-    font-size: 1.1rem;
+    line-height: 1.5;
+    font-size: 1rem;
     text-align: left;
     hyphens: auto;
   }
@@ -189,12 +189,8 @@ pre code {
 // Links with subtle styling
 a {
   text-decoration: none;
-  border-bottom: 1px solid var(--secondary);
-  transition: border-color 0.2s ease;
-
-  &:hover {
-    border-bottom-color: var(--dark);
-  }
+  border-bottom: none;
+  transition: color 0.2s ease;
 }
 
 // Remove border from navigation links
@@ -230,6 +226,7 @@ table {
   h1 {
     font-size: 3rem;
     margin-bottom: 0.5rem;
+    color: var(--secondary);
   }
 
   .subtitle {
@@ -259,6 +256,7 @@ hr {
 .hero-photo {
   float: right;
   margin: 0 0 1rem 2rem;
+  text-align: center;
 
   p {
     margin: 0;
@@ -292,6 +290,27 @@ hr {
     margin-bottom: 0.5rem;
     font-size: 2.5rem;
     font-style: normal;
+  }
+}
+
+// Contact info line (location + email)
+.contact-info {
+  color: var(--gray);
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+
+  p {
+    margin: 0;
+  }
+
+  #hero-email a {
+    color: var(--gray);
+    border-bottom: none;
+    font-family: var(--codeFont);
+
+    &:hover {
+      color: var(--secondary);
+    }
   }
 }
 
