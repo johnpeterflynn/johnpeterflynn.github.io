@@ -84,7 +84,7 @@ A diffusion-based video editing model for talking heads, enabling transcript-dri
 
 <div class="pub-authors">
 
-**John Peter Flynn**
+**John Peter Flynn**, Matthias Nießner
 
 </div>
 
