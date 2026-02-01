@@ -54,7 +54,7 @@ I completed my MSc in Computer Science at the [Technical University of Munich](h
 
 <div class="pub-description">
 
-A diffusion-based video editing model for talking heads, enabling transcript-driven lip-syncing, insertion, removal and retiming of speech while preserving identity and visual fidelity.
+A diffusion-based video editing model for talking heads, enabling transcript-driven lip-syncing, insertion, removal and retiming of video while preserving identity and visual fidelity. Please refer to Ethical Considerations (Section 5.1) in our paper.
 
 </div>
 
