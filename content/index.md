@@ -26,9 +26,9 @@ San Francisco, CA · <span id="hero-email"></span>
 
 </div>
 
-I'm a Senior Machine Learning Researcher and founding employee at [Pipio](https://pipio.ai), where I build video editing tools powered by diffusion transformers.
+I'm a **Senior Machine Learning Researcher** and founding employee at [Pipio](https://pipio.ai), where my team and I build video editing tools powered by diffusion transformers. We just released a new paper called [EditYourself](https://edit-yourself.github.io/).
 
-I completed my MSc in Computer Science at the [Technical University of Munich](https://www.tum.de/en/), where I worked in the [Visual Computing and AI Lab](https://niessnerlab.org/) under the supervision of [Prof. Matthias Nießner](https://niessnerlab.org//members/matthias_niessner/profile.html).
+I completed my MSc in Computer Science at the [Technical University of Munich](https://www.tum.de/en/), where I wrote my thesis in the [Visual Computing and AI Lab](https://niessnerlab.org/) under the supervision of [Prof. Matthias Nießner](https://niessnerlab.org//members/matthias_niessner/profile.html). Prior to that, I studied at the University of California at Davis (go ags 🥳), where I earned a double BS in Electrical and Computer Engineering.
 
 ## Publications & Projects
 
