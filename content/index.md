@@ -36,13 +36,13 @@ I completed my MSc in Computer Science at the [Technical University of Munich](h
 
 <div class="pub-image">
 
-![EditYourself teaser](https://gafniguy.github.io/images/edityourself_teaser.png)
+[![EditYourself teaser](https://gafniguy.github.io/images/edityourself_teaser.png)](https://edit-yourself.github.io)
 
 </div>
 
 <div class="pub-content">
 
-### EditYourself: Audio-Driven Generation and Manipulation of Talking Head Videos with Diffusion Transformers
+### [EditYourself: Audio-Driven Generation and Manipulation of Talking Head Videos with Diffusion Transformers](https://edit-yourself.github.io)
 
 <div class="pub-year">2026</div>
 
@@ -72,13 +72,13 @@ A diffusion-based video editing model for talking heads, enabling transcript-dri
 
 <div class="pub-image">
 
-![STINet output animation](https://raw.githubusercontent.com/johnpeterflynn/surface-texture-inpainting-net/main/docs/images/output640_lan.gif)
+[![STINet output animation](https://raw.githubusercontent.com/johnpeterflynn/surface-texture-inpainting-net/main/docs/images/output640_lan.gif)](https://github.com/johnpeterflynn/surface-texture-inpainting-net)
 
 </div>
 
 <div class="pub-content">
 
-### Surface Texture Inpainting Using Graph Neural Networks
+### [Surface Texture Inpainting Using Graph Neural Networks](https://github.com/johnpeterflynn/surface-texture-inpainting-net)
 
 <div class="pub-year">Master's Thesis, 2022</div>
 
@@ -108,13 +108,13 @@ Master's thesis exploring graph neural networks for completing texture on partia
 
 <div class="pub-image">
 
-![ORB-SLAM demo](https://raw.githubusercontent.com/johnpeterflynn/stereo-camera-orb-slam/master/docs/images/demo.gif)
+[![ORB-SLAM demo](https://raw.githubusercontent.com/johnpeterflynn/stereo-camera-orb-slam/master/docs/images/demo.gif)](https://github.com/johnpeterflynn/stereo-camera-orb-slam)
 
 </div>
 
 <div class="pub-content">
 
-### Stereo-Camera ORB-SLAM for Indoor 3D Reconstruction
+### [Stereo-Camera ORB-SLAM for Indoor 3D Reconstruction](https://github.com/johnpeterflynn/stereo-camera-orb-slam)
 
 <div class="pub-year">Project at TU Munich, 2018</div>
 
