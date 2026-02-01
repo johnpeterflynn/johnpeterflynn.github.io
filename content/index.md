@@ -112,6 +112,42 @@ Master's thesis exploring graph neural networks for completing texture on partia
 
 </div>
 
+<div class="publication-entry">
+
+<div class="pub-image">
+
+![ORB-SLAM demo](https://raw.githubusercontent.com/johnpeterflynn/stereo-camera-orb-slam/master/docs/images/demo.gif)
+
+</div>
+
+<div class="pub-content">
+
+### Stereo-Camera ORB-SLAM for Indoor 3D Reconstruction
+
+<div class="pub-year">Project at TU Munich, 2018</div>
+
+<div class="pub-authors">
+
+**John Flynn**
+
+</div>
+
+<div class="pub-description">
+
+Real-time stereo-camera SLAM system implementing sparse indirect feature correspondence methods with a covisibility graph for storing spatially-related keyframes and landmarks. Features tracking, local mapping, and loop closing threads for robust camera localization and 3D reconstruction.
+
+</div>
+
+<div class="pub-links">
+
+[GitHub](https://github.com/johnpeterflynn/stereo-camera-orb-slam) | [Technical Report](https://github.com/johnpeterflynn/stereo-camera-orb-slam/blob/master/docs/slam.pdf)
+
+</div>
+
+</div>
+
+</div>
+
 <div id="contact"></div>
 
 ## Contact

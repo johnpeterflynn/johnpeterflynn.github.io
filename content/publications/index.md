@@ -23,4 +23,13 @@ Master's Thesis, Technical University of Munich
 
 ---
 
+## 2018
+
+### Stereo-Camera ORB-SLAM for Indoor 3D Reconstruction
+**John Flynn**
+Project at TU Munich
+[GitHub](https://github.com/johnpeterflynn/stereo-camera-orb-slam) | [Technical Report](https://github.com/johnpeterflynn/stereo-camera-orb-slam/blob/master/docs/slam.pdf)
+
+---
+
 *To cite my work, you can download the [BibTeX file](/static/publications.bib).*
