@@ -21,6 +21,7 @@ title: Welcome
 <div class="social-links">
 
 [![GitHub](/static/icons/github.svg)](https://github.com/johnpeterflynn)
+[![Google Scholar](/static/icons/scholar.svg)](https://scholar.google.com/citations?user=kLSw3JQAAAAJ&hl=en)
 [![LinkedIn](/static/icons/linkedin.svg)](https://linkedin.com/in/johnpeterflynn)
 [![Twitter](/static/icons/twitter.svg)](https://twitter.com/johnpeterflynn)
 
