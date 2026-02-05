@@ -45,7 +45,7 @@ I'm currently interested in video diffusion and 3D computer vision, with emergin
 
 <div class="pub-content">
 
-### [EditYourself: Audio-Driven Generation and Manipulation of Talking Head Videos with Diffusion Transformers](https://edit-yourself.github.io)
+### [EditYourself: Audio-Driven Generation and Manipulation of Talking Head Videos with Diffusion Transformers](https://arxiv.org/abs/2601.22127)
 
 <div class="pub-year">2026</div>
 
@@ -63,7 +63,7 @@ A diffusion-based video editing model for talking heads, enabling transcript-dri
 
 <div class="pub-links">
 
-[Project Page](https://edit-yourself.github.io) | [Paper](https://arxiv.org/abs/2601.22127)
+[Paper](https://arxiv.org/abs/2601.22127)
 
 </div>
 
