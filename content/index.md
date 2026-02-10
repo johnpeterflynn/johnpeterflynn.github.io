@@ -51,7 +51,7 @@ I'm currently interested in video diffusion and 3D computer vision, with emergin
 
 <div class="pub-authors">
 
-**John Peter Flynn**, Wolfgang Paier, Dimitar Dinev, Sam Nhut Nguyen, Hayk Poghosyan, Manuel Toribio, Sandipan Banerjee, Guy Gafni
+**John Peter Flynn***, Wolfgang Paier*, Dimitar Dinev, Sam Nhut Nguyen, Hayk Poghosyan, Manuel Toribio, Sandipan Banerjee, Guy Gafni
 
 </div>
 
