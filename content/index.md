@@ -27,7 +27,7 @@ title: Welcome
 
 </div>
 
-I'm a **Senior Machine Learning Researcher** and founding employee at [Pipio](https://pipio.ai), where my team and I build video editing tools powered by diffusion transformers. We just released a new paper called [EditYourself](https://edit-yourself.github.io/).
+I'm a **Senior Machine Learning Researcher** and founding employee at [Pipio](https://pipio.ai), where my team and I build video editing tools powered by diffusion transformers. We just released a new paper called [EditYourself](https://arxiv.org/abs/2601.22127).
 
 I completed my MSc in Computer Science at the [Technical University of Munich](https://www.tum.de/en/), where I wrote my thesis on graph neural networks under the supervision of [Prof. Matthias Nießner](https://niessnerlab.org//members/matthias_niessner/profile.html) in the [Visual Computing and AI Lab](https://niessnerlab.org/). Prior to that, I studied at the [University of California at Davis](https://www.ucdavis.edu/) (go ags 🥳), where I earned a BS in Electrical Engineering and Computer Engineering.
 
