@@ -119,7 +119,7 @@ Master's thesis exploring graph neural networks for completing texture on partia
 
 ### [Stereo-Camera ORB-SLAM for Indoor 3D Reconstruction](https://github.com/johnpeterflynn/stereo-camera-orb-slam)
 
-<div class="pub-year">Project at TU Munich, 2019</div>
+<div class="pub-year">Course Project at TU Munich, 2019</div>
 
 <div class="pub-authors">
 
