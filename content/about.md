@@ -62,7 +62,7 @@ My research focuses on Visual Computing. I'm particularly interested in:
 The best way to reach me is by email:
 
 <div class="email-contact">
-johnflynn90 [at] gmail.com
+contact [at] johnpeterflynn.com
 </div>
 
 I'm happy to discuss research collaborations, speaking opportunities, or answer questions about my work.
